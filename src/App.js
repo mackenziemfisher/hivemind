@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -14,10 +15,9 @@ function App() {
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Perspective Station</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#perspective station">Perspective Station</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#howto">Tools</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Experience Submission Form</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Submission Form</a></li>
                         
                     </ul>
                 </div>
@@ -85,8 +85,8 @@ function App() {
                 </div>
         
         <div class="container">
-            <h1>Making Better Choices & Debiasing 101:</h1>
-                <h6> There will always be situations where you feel like something isn't right, but it's all about how you react in certain situations. Below are resources that will help you identify bias, as well as mental model resources to strengthen your thinking process. </h6>
+            <h1>Making Smarter Decisions & Debiasing 101:</h1>
+                <h6> There will always be situations where you feel like something isn't right socially, but it's all about how you react in certain situations. Below are resources that will help you identify bias, as well as mental model resources to strengthen your thinking process. </h6>
                 
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
@@ -102,7 +102,8 @@ function App() {
                 </p>
                       <div>
                       <a class="btn" href="https://docs.google.com/document/d/1FcwKNcFlRTilxrsX512p8OZZMojrpittEn0Bot0bfuM/edit?usp=sharing">Mental Model Resources</a>    
-                      <a class="btn" href="https://drive.google.com/drive/folders/1vMGBVyHDuHCnkT-bfqwgtCixBwvrCixu?usp=sharing"> Identifying Bias Resources</a>    
+                      <a class="btn" href="https://drive.google.com/drive/folders/1vMGBVyHDuHCnkT-bfqwgtCixBwvrCixu?usp=sharing"> Identifying Bias Resources</a>  
+                      <a class="btn" href="https://www.youtube.com/playlist?list=PL2Yb5ZzQfxt_Nvw8w6es2KECmS-_Re6cK" >TED Speech Bank</a>   
                       </div>
             
                </div>
@@ -146,8 +147,8 @@ function App() {
         <section class="page-section" id="contact">
             <div class="container">
                 
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                               <h4>Feel free to submit your story or experience below, open to all speech and debate competitors, judges, coaches, and alum.</h4>
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Join The Hive</h2>
+                               <h4>Submit your story or experience here, open to all speech and debate competitors, judges, coaches, and alum.</h4>
                 
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -162,10 +163,12 @@ function App() {
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                     <label>Name</label>
-                                    <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                    <input class="form-control" id="name(optional)" type="text" placeholder="Name(Optional)" required="required" data-validation-required-message="Please enter your name." />
                                     <p class="help-block text-danger"></p>
                                 </div>
-                            </div>
+                                </div>
+                              
+                            
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                     <label>Email Address</label>
@@ -173,17 +176,11 @@ function App() {
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+                
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Phone Number</label>
-                                    <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="control-group">
-                                <div class="form-group floating-label-form-group controls mb-0 pb-2">
-                                    <label>Story/Experience/Feedback</label>
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                    <label>Submission</label>
+                                    <textarea class="form-control" id="submission" rows="5" placeholder="Submission" required="required" data-validation-required-message="Please enter a message."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -201,7 +198,7 @@ function App() {
                 <div class="row">
                     
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">As A Speech & Debate Community We Are Always #betterTogether</h4>
+                        <h4 class="text-uppercase mb-4">As A Speech & Debate Community We Should Remember That We Are Always #betterTogether</h4>
                         <p class="lead mb-0">
                             
                             <br />
